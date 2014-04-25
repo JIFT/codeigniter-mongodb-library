@@ -8,12 +8,6 @@ This is a query builder inspired CodeIgniter library to integrate a MongoDB data
 2. Add the file mongodb.php to your /application/config folder.
 3. Update the config file.
 
-### Using in a non-CodeIgniter app
-
-1. Put the library in an appropriate folder
-2. Load the library with `require_once`
-3. Pass an array into the `load()` method with the parameters from the config/mongodb.php file to connect to the database
-
 You can now autoload the library or include it in one of your controllers at run time.
 
 You can interact with the database using many of the active record functions that CodeIgniter provides.
